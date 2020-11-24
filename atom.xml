@@ -6,7 +6,7 @@
   <link href="https://weijiajin.com/atom.xml" rel="self"/>
   
   <link href="https://weijiajin.com/"/>
-  <updated>2020-11-23T13:56:14.373Z</updated>
+  <updated>2020-11-24T07:59:15.749Z</updated>
   <id>https://weijiajin.com/</id>
   
   <author>
@@ -21,7 +21,28 @@
     <link href="https://weijiajin.com/2020/11/20/hello-world/"/>
     <id>https://weijiajin.com/2020/11/20/hello-world/</id>
     <published>2020-11-20T07:28:06.836Z</published>
-    <updated>2020-11-23T13:56:14.373Z</updated>
+    <updated>2020-11-24T07:59:15.749Z</updated>
+    
+    <content type="html"><![CDATA[<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo s</span><br></pre></td></tr></table></figure><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g</span><br></pre></td></tr></table></figure><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>]]></content>
+    
+    
+    <summary type="html">Hello World</summary>
+    
+    
+    
+    <category term="hexo" scheme="https://weijiajin.com/categories/hexo/"/>
+    
+    
+    <category term="hexo" scheme="https://weijiajin.com/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Hello World</title>
+    <link href="https://weijiajin.com/2020/11/20/tensorflow/"/>
+    <id>https://weijiajin.com/2020/11/20/tensorflow/</id>
+    <published>2020-11-20T07:28:06.836Z</published>
+    <updated>2020-11-24T07:59:15.749Z</updated>
     
     <content type="html"><![CDATA[<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo s</span><br></pre></td></tr></table></figure><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g</span><br></pre></td></tr></table></figure><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>]]></content>
     

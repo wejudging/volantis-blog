@@ -94,9 +94,9 @@
         
         <a class="title flat-box" target="_self" href='/'>
           
-            <img no-lazy class='logo' src='https://cdn.jsdelivr.net/gh/feelheart7/CDN@1.0/blog/images/logo.png'/>
           
           
+            weijiajin
           
         </a>
       
@@ -460,6 +460,12 @@
       
       
         
+  <div class="related_posts">
+    <section class='header'>
+      <i class="fas fa-bookmark fa-fw" aria-hidden="true"></i><span>相关文章</span>
+    </section>
+    <section class='body'>
+      <div class="vlts-rps"><a class="item" href="/2020/11/20/tensorflow/" title="Hello World" rel="bookmark "><img src="data:image/png;base64,666" /><span class="title">Hello World</span><span class="excerpt">Hello World</span></a></div></section></div>
       
       
         <div class='copyright'>
@@ -488,10 +494,10 @@
     <div class='new-meta-box'>
       
         
-          <div class="new-meta-item date" itemprop="dateUpdated" datetime="2020-11-23T21:56:14+08:00">
+          <div class="new-meta-item date" itemprop="dateUpdated" datetime="2020-11-24T15:59:15+08:00">
   <a class='notlink'>
     <i class="fas fa-edit fa-fw" aria-hidden="true"></i>
-    <p>更新于：2020年11月23日</p>
+    <p>更新于：2020年11月24日</p>
   </a>
 </div>
 
@@ -530,6 +536,20 @@
   
   
 
+  
+    <div class="prev-next">
+      
+      
+        <a class='next' href='/2020/11/20/tensorflow/'>
+          <p class='title'>Hello World<i class="fas fa-chevron-right" aria-hidden="true"></i></p>
+          <p class='content'>Quick StartCreate a new post1$ hexo new &quot;My New Post&quot;
+
+Run server1$ hexo s
+
+Generate st...</p>
+        </a>
+      
+    </div>
   
 </article>
 
@@ -579,6 +599,57 @@
   
     
     
+  
+
+  <section class="widget category shadow desktop mobile">
+    
+  <header>
+    
+      <a href='/blog/categories/'><i class="fas fa-folder-open fa-fw" aria-hidden="true"></i><span class='name'>文章分类</span></a>
+    
+  </header>
+
+
+    <div class='content'>
+      <ul class="entry navigation">
+        
+          <li><a class="flat-box"
+            title="/categories/hexo/" href="/categories/hexo/"
+            id="categorieshexo"
+            ><div class='name'>hexo</div><div class='badge'>(2)</div></a></li>
+        
+      </ul>
+    </div>
+  </section>
+
+
+  
+
+  
+    
+    
+  
+
+  <section class="widget tagcloud shadow desktop mobile">
+    
+  <header>
+    
+      <a href='/blog/tags/'><i class="fas fa-tags fa-fw" aria-hidden="true"></i><span class='name'>热门标签</span></a>
+    
+  </header>
+
+
+    <div class='content'>
+      <a href="/tags/hexo/" style="font-size: 14px; color: #999">hexo</a>
+    </div>
+  </section>
+
+
+  
+
+  
+    
+    
 
 <section class="widget shadow desktop mobile">
   
@@ -594,7 +665,7 @@
       
         <div class="webinfo-item">
           <div>文章数目：</div>
-          <div>1 篇</div>
+          <div>2 篇</div>
         </div>
       
 
@@ -616,7 +687,7 @@
       
         <div class="webinfo-item">
           <div>本站总字数：</div>
-          <div>27 字</div>
+          <div>54 字</div>
         </div>
       
 
@@ -642,7 +713,7 @@
         <div class="webinfo-item">
           <div>最后活动时间：</div>
           
-            <div id="last-update" style="display: none;">Tue Nov 24 2020 15:14:23 GMT+0800 (中国标准时间)</div>
+            <div id="last-update" style="display: none;">Tue Nov 24 2020 17:12:05 GMT+0800 (中国标准时间)</div>
             <div id="last-update-show">2020-11-24 日</div>
           
         </div>
@@ -1017,6 +1088,61 @@ var loadCSS = function( href, before, media, attributes ){
   
 
 
+
+
+  <script src="https://cdn.jsdelivr.net/npm/clipboard@2.0.6/dist/clipboard.min.js"></script>
+<script>
+    var clipboard = new ClipboardJS('.btn-copy', {
+        target: function (trigger) {
+            return trigger.nextElementSibling
+        }
+    });
+    function wait(callback, seconds) {
+        var timelag = null;
+        timelag = window.setTimeout(callback, seconds)
+    }
+    function pjax_initCopyCode() {
+		if($(".highlight .code pre").length+$(".article pre code").length==0)return;
+        var copyHtml = '';
+        copyHtml += '<button class="btn-copy" data-clipboard-snippet="">';
+        copyHtml += '<i class="fas fa-copy"></i><span>COPY</span>';
+        copyHtml += '</button>';
+        $(".highlight .code pre").before(copyHtml);
+        $(".article pre code").before(copyHtml);
+        clipboard.off('success').on('success', function (e) {
+            let $btn = $(e.trigger);
+            $btn.addClass('copied');
+            let $icon = $($btn.find('i'));
+            $icon.removeClass('fa-copy');
+            $icon.addClass('fa-check-circle');
+            let $span = $($btn.find('span'));
+            $span[0].innerText = 'COPIED';
+            wait(function () {
+                $icon.removeClass('fa-check-circle');
+                $icon.addClass('fa-copy');
+                $span[0].innerText = 'COPY'
+            }, 2000)
+        });
+        clipboard.off('error').on('error', function (e) {
+            e.clearSelection();
+            let $btn = $(e.trigger);
+            $btn.addClass('copy-failed');
+            let $icon = $($btn.find('i'));
+            $icon.removeClass('fa-copy');
+            $icon.addClass('fa-times-circle');
+            let $span = $($btn.find('span'));
+            $span[0].innerText = 'COPY FAILED';
+            wait(function () {
+                $icon.removeClass('fa-times-circle');
+                $icon.addClass('fa-copy');
+                $span[0].innerText = 'COPY'
+            }, 2000)
+        })
+    }
+    $(function () {
+        pjax_initCopyCode()
+    });
+</script>
 
 
 
@@ -1571,6 +1697,8 @@ document.addEventListener("pjax:success", listennSidebarTOC);
           pjax_scrollrebeal();
         
         
+        
+          pjax_initCopyCode();
         
         
           pjax_valine();
