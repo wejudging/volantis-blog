@@ -20,7 +20,9 @@
       
         <tags>
             
-            <tag> -tensorflow -python </tag>
+            <tag> tensorflow </tag>
+            
+            <tag> python </tag>
             
         </tags>
       
