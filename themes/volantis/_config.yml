@@ -38,9 +38,9 @@ navbar:
     #- name: 友链
     #  icon: fas fa-link
     #  url: friends/
-    - name: 评论
-      icon: fas fa-comment-dots
-      url: https://feelheart.leanapp.cn/
+   # - name: 评论
+    #  icon: fas fa-comment-dots
+     # url: https://feelheart.leanapp.cn/
     #- name: 关于
      # icon: fas fa-info-circle
      # url: about/
@@ -82,10 +82,10 @@ cover:
     #  icon: fas fa-link
     #  img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f396.svg
     #  url: friends/
-    - name: 评论
-      icon: fas fa-comment-dots
-      img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f4f0.svg
-      url: https://feelheart.leanapp.cn/
+    #- name: 评论
+   #   icon: fas fa-comment-dots
+   #   img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f4f0.svg
+   #   url: https://feelheart.leanapp.cn/
     #- name: 关于
     #  icon: fas fa-info-circle
     # img: https://cdn.jsdelivr.net/gh/twitter/twemoji@13.0/assets/svg/1f9ec.svg
