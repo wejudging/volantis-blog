@@ -312,7 +312,7 @@
           
             
 <div class='new-meta-item author'>
-  <a class='author' href="https://weijiajin.com" rel="nofollow">
+  <a class='author' href="http://weijiajin.com/volantis-blog/" rel="nofollow">
     <img no-lazy src="https://cdn.jsdelivr.net/gh/feelheart7/CDN@1.0/blog/images/logo.png">
     <p>weijiajin</p>
   </a>
@@ -615,8 +615,8 @@
         <div class="webinfo-item">
           <div>最后活动时间：</div>
           
-            <div id="last-update" style="display: none;">Fri Jan 01 2021 12:37:15 GMT+0800 (中国标准时间)</div>
-            <div id="last-update-show">2021-01-01 日</div>
+            <div id="last-update" style="display: none;">Mon Apr 05 2021 09:24:23 GMT+0800 (中国标准时间)</div>
+            <div id="last-update-show">2021-04-05 日</div>
           
         </div>
         
@@ -666,7 +666,7 @@
           try {
             document.getElementById('last-update-show').innerHTML = timeago(new Date(lastUpDate));
           } catch (error) {
-            document.getElementById('last-update-show').innerHTML = '2021-01-01 日';
+            document.getElementById('last-update-show').innerHTML = '2021-04-05 日';
           }
         </script>
         
@@ -1302,7 +1302,7 @@ function setSearchService() {
       // 请求 PV 并自增
       var pvCtn = document.querySelector('#lc-sv');
       if (pvCtn || enableIncr) {
-        var pvGetter = this.getRecord(Counter, 'https://weijiajin.com' + '/#lc-sv', 'Visits').then((record) => {
+        var pvGetter = this.getRecord(Counter, 'http://weijiajin.com/volantis-blog' + '/#lc-sv', 'Visits').then((record) => {
           incrArr.push(this.buildIncrement(record.objectId))
           var eles = document.querySelectorAll('#lc-sv #number');
           if (eles.length > 0) {
@@ -1320,7 +1320,7 @@ function setSearchService() {
       // 请求 UV 并自增
       var uvCtn = document.querySelector('#lc-uv');
       if (uvCtn || enableIncr) {
-        var uvGetter = this.getRecord(Counter, 'https://weijiajin.com' + '/#lc-uv', 'Visitors').then((record) => {
+        var uvGetter = this.getRecord(Counter, 'http://weijiajin.com/volantis-blog' + '/#lc-uv', 'Visitors').then((record) => {
           var vuv = this.validUV();
           vuv && incrArr.push(this.buildIncrement(record.objectId))
           var eles = document.querySelectorAll('#lc-uv #number');
@@ -1342,7 +1342,7 @@ function setSearchService() {
         for (i = 0; i < allPV.length; i++) {
           let pv = allPV[i];
           let title = pv.getAttribute('data-title');
-          var url = 'https://weijiajin.com' + pv.getAttribute('data-path');
+          var url = 'http://weijiajin.com/volantis-blog' + pv.getAttribute('data-path');
           if (url) {
             var viewGetter = this.getRecord(Counter, url, title).then((record) => {
               // 是当前页面就自增
