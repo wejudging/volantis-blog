@@ -105,7 +105,7 @@ theme: volantis
 deploy:
   type: git
   repository: https://github.com/wejudging/volantis-blog.git
-  branch: master
+  branch: main
   
 # 全局导入
 import:
