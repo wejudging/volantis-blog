@@ -215,13 +215,13 @@ article:
 comments:
   title: <i class='fas fa-comments'></i> 评论
   subtitle:
-  service: valine # valine, minivaline, disqus, gitalk, vssue, livere, isso, hashover
+  service:  # valine, minivaline, disqus, gitalk, vssue, livere, isso, hashover
   # Valine
   # https://valine.js.org/
   valine:
     appId: Lv4qGt5SNuuepaXTA56s4DLa-gzGzoHsz
     appKey: zuK5DloBCEaLYSVWisoGRFSG
-    js: https://cdn.jsdelivr.net/gh/feelheart7/feelheart7.github.io/js/valine.js
+    js: https://cdn.jsdelivr.net/gh/wejudging/wejudging.github.io/js/valine.js
     path: # 全局评论地址
     placeholder: 快来评论吧～ლ(＾ω＾ლ)～ # 评论占位提示
     meta: nick,mail,link # valine comment header info
