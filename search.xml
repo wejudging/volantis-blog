@@ -1431,23 +1431,23 @@
     
     
     <entry>
-      <title>Hello World</title>
-      <link href="2020/11/21/hello-world/"/>
-      <url>2020/11/21/hello-world/</url>
+      <title>商誉声明书</title>
+      <link href="2019/06/24/%E5%95%86%E8%AA%89%E5%A3%B0%E6%98%8E%E4%B9%A6/"/>
+      <url>2019/06/24/%E5%95%86%E8%AA%89%E5%A3%B0%E6%98%8E%E4%B9%A6/</url>
       
-        <content type="html"><![CDATA[<h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo new <span class="string">&quot;My New Post&quot;</span></span><br></pre></td></tr></table></figure><h3 id="Run-server"><a href="#Run-server" class="headerlink" title="Run server"></a>Run server</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo s</span><br></pre></td></tr></table></figure><h3 id="Generate-static-files"><a href="#Generate-static-files" class="headerlink" title="Generate static files"></a>Generate static files</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo g</span><br></pre></td></tr></table></figure><h3 id="Deploy-to-remote-sites"><a href="#Deploy-to-remote-sites" class="headerlink" title="Deploy to remote sites"></a>Deploy to remote sites</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><span class="line">1</span><br></pre></td><td class="code"><pre><span class="line">$ hexo d</span><br></pre></td></tr></table></figure>]]></content>
+        <content type="html"><![CDATA[<h1 id="商誉声明书"><a href="#商誉声明书" class="headerlink" title="商誉声明书"></a>商誉声明书</h1><p>我公司——————————————郑重声明：<br>在过往所进行的经营活动中没有出现过违法犯罪行为、无被责令停业或破产的情况；没有被暂停或取消过投标资格；无骗取中标或严重违约现象；法定代表人、财务及其他部门负责人近一年无违法犯罪行为；未发生过重大责任性质量事故；未受到过行政主管部门的通报和处罚；未发生过诉讼及仲裁情况；无不良记录。</p><p>我方所做上述承诺信息真实有效。<br>特此承诺！</p><p>公司（全称）：<br>2019年6月25日</p>]]></content>
       
       
       <categories>
           
-          <category> hexo </category>
+          <category> 商誉声明书 </category>
           
       </categories>
       
       
         <tags>
             
-            <tag> hexo </tag>
+            <tag> 商誉声明书 </tag>
             
         </tags>
       
